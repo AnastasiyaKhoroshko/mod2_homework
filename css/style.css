@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nerko One", cursive;
+  font-family: "Rubik", sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: brown;
+  text-align: center;
+  font-size: 42px;
+  font-family: "Nerko One", cursive;
+  margin-bottom: 30px;
+}
+.chicken {
+  background-color: burlywood;
+  margin-bottom: 10px;
+  width: 150px;
+  text-align: center;
+  border: 1px black solid;
+  float: right;
+}
+.chickenText {
+  clear: both;
+  padding: 10px;
+}
+.beef {
+  background-color: chocolate;
+  margin-bottom: 10px;
+  width: 150px;
+  text-align: center;
+  border: 1px black solid;
+  float: right;
+}
+.beefText {
+  clear: both;
+  padding: 10px;
+}
+.sushi {
+  background-color: rgb(241, 241, 163);
+  margin-bottom: 10px;
+  width: 150px;
+  text-align: center;
+  border: 1px black solid;
+  float: right;
+}
+.sushiText {
+  clear: both;
+  padding: 10px;
+}
+.card {
+  background-color: rgb(190, 204, 189);
+  border: 1px black solid;
+}
+.cont {
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .cont {
+    width: 33.3%;
+    float: left;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cont {
+    width: 50%;
+    float: left;
+  }
+  .all {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .cont {
+    width: 100%;
+    float: left;
+  }
+}
